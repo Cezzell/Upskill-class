@@ -19,3 +19,16 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+43 */
+    background: rgb(0,183,234); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 43%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 43%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 43%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 */
+    
+}
+.navbar{
+    border: none;
+}
