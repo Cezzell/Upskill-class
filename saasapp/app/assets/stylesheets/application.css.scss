@@ -20,7 +20,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar{
+.home-callout, .navbar{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+43 */
     background: rgb(0,183,234); /* Old browsers */
     background: -moz-linear-gradient(left, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 43%); /* FF3.6-15 */
@@ -28,6 +28,12 @@ body, .navbar{
     background: linear-gradient(to right, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 43%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 */
     
+}
+.home-callout{
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
 }
 .navbar{
     border: none;
