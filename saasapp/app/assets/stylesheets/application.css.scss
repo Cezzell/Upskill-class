@@ -62,3 +62,18 @@ h1, h2, h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+    border-width: 2px;
+    
+    &:hover{
+        background-color: lightblue;
+    }
+    &:focus{
+        background-color: lightblue;
+    }
+}
