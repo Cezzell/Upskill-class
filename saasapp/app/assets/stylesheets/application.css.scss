@@ -62,18 +62,17 @@ h1, h2, h3 {
     }
 }
 
+// Mobile View, icon bars are white
 .navbar-default .navbar-toggle .icon-bar{
     background-color: white;
 }
 
+//Mobile View, icon while be white for hover and focus
 .navbar-default .navbar-toggle {
     border-color: white;
     border-width: 2px;
     
-    &:hover{
-        background-color: lightblue;
-    }
-    &:focus{
+    &:hover, &:focus{
         background-color: lightblue;
     }
 }
