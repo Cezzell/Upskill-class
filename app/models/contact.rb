@@ -1,4 +1,5 @@
 class Contact < ActiveRecord::Base
+  #Contact Form field validations
   validates :name, presence: true
   validates :email, presence: true
   validates :comments, presence: true
